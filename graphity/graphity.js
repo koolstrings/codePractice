@@ -5,7 +5,7 @@ var circles = [],
     cont = true
 
 function setup() {
-    createCanvas(800,500)
+    createCanvas(1600,350)
     //frameRate(2)
 }
 

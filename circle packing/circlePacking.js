@@ -6,6 +6,7 @@ var circles = [],
 
 function setup() {
     createCanvas(1200,600)
+    background(0,0,255,50)
     //frameRate(2)
 }
 
@@ -84,9 +85,10 @@ MyCircle.prototype.display = function(){
         //fill(baseColors[round(random(3))])
         fill('yellow')
         ellipse(this.pos.x,this.pos.y,this.rad-3,this.rad-3)
-        fill(255)
+        fill(0,255,0,50)
         ellipse(this.pos.x,this.pos.y,this.rad*0.75,this.rad*0.75)
         rect(width-90,height-50,88,40)
+        fill(255,255)
         fill('red')
         text("Attempts: "+(500-attempts), width-85, height-38)
         text("Count: "+circles.length, width-85, height-25)

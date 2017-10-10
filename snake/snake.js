@@ -6,11 +6,11 @@ var snake,
     sfood,
     ssize = 1,
     snakeAlive = true,
-    allowNext = false;
-    dataW = 20
+    allowNext = false,
+    dataW = 20;
 
 function setup() {
-    createCanvas(1000,600);
+    createCanvas(1000, 600);
     cols = width/dataW,
     rows = height/dataW,
     snake = new Snake()
